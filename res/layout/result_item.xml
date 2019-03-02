@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_result"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="90"
+        android:textColor="@color/NavajoWhite"
+        android:textSize="@dimen/text_size_slarge"
+        android:background="@drawable/bg_gv"/>

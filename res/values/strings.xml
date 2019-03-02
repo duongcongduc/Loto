@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Việt Lô Tô</string>
+    
+    <string name="start_num">00</string>
+    <string name="play_game">play the game</string>
+    <string name="pause_game">pause the game</string>
+    <string name="stop_game">stop game and clear the number list</string>
+    <string name="win_game">stop game and play a victory sound for winner</string>
+    <string name="result_game">to review the number list, which is got out</string>
+    <string name="select_mode">choose the voice</string>
+    <string name="guide">The Guide</string>
+    
+    <string name="play">Play/Pause</string>
+    <string name="stop">Stop and Clear</string>
+    <string name="win">Win</string>
+    <string name="select">Voice</string>
+    <string name="result">Number List</string>
+    <string name="about">About</string>
+    <string name="about_copyright">Copyright © 2013 Dương Công Đức</string>
+    <string name="about_email">duongcgduc@gmail.com</string>
+    
+    <string name="promt">Chọn giọng đọc:</string>
+    <string-array name="voice">
+        <item>Giọng đọc thường</item>
+        <item>Giọng hội chợ</item>
+    </string-array>
+</resources>

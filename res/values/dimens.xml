@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Text sizes -->
+    <dimen name="text_size_extra_micro">10sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_slarge">25sp</dimen>
+    
+    <!-- Padding -->
+    <dimen name="padding_slarge">20dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="padding_low">2dp</dimen>
+    <dimen name="padding_medium">4dp</dimen>
+    
+    <!-- Width Height -->
+    <dimen name="width_button">250dp</dimen>
+    <dimen name="width_bookmark">100dp</dimen>
+    <dimen name="height_button">40dp</dimen>
+    <dimen name="margin_button">10dp</dimen>
+</resources>

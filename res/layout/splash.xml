@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_main"
+    android:padding="10dp">
+    
+    <TableLayout
+        android:layout_below="@+id/tv_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="1">
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" 
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+            android:gravity="center_vertical">
+            <ImageView 
+                android:src="@drawable/button_play"/>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/play_game"
+                android:textColor="@color/NavajoWhite"
+                android:textSize="@dimen/text_size_large"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"  
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+            android:gravity="center_vertical">
+            <ImageView 
+                android:src="@drawable/button_pause"/>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/pause_game"
+                android:textColor="@color/NavajoWhite"
+                android:textSize="@dimen/text_size_large"/>
+        </TableRow>
+        <TableRow 
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" 
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:gravity="center_vertical">
+            <ImageView 
+                android:src="@drawable/button_stop_focus"/>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/stop_game"
+                android:textColor="@color/NavajoWhite"
+                android:textSize="@dimen/text_size_large"/>
+        </TableRow>
+        <TableRow 
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" 
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:gravity="center_vertical">
+            <ImageView 
+                android:src="@drawable/button_result_focus"/>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/result_game"
+                android:textColor="@color/NavajoWhite"
+                android:textSize="@dimen/text_size_large"/>
+        </TableRow>
+        <TableRow 
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" 
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:gravity="center_vertical">
+            <ImageView 
+                android:src="@drawable/button_win_focus"/>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/win_game"
+                android:textColor="@color/NavajoWhite"
+                android:textSize="@dimen/text_size_large"/>
+        </TableRow>
+        <TableRow 
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" 
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:gravity="center_vertical">
+            <ImageView 
+                android:src="@drawable/button_select_focus"/>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/select_mode"
+                android:textColor="@color/NavajoWhite"
+                android:textSize="@dimen/text_size_large"/>
+        </TableRow>
+    </TableLayout>
+    
+    <TextView 
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/NavajoWhite"
+        android:textSize="@dimen/text_size_slarge"
+        android:textStyle="bold"
+        android:text="@string/guide"/>
+    
+    <LinearLayout 
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/bg_enter">
+        <ImageButton 
+            android:id="@+id/bt_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_enter"
+            android:background="@null"/>
+    </LinearLayout>
+
+</RelativeLayout>
